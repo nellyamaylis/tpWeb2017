@@ -10,20 +10,64 @@ function Pencil(ctx, drawing, canvas) {
 	// Liez ici les widgets à la classe pour modifier les attributs présents ci-dessus.
 
 	new DnD(canvas, this);
+    var butRect = document.getElementById('butRect');
+    var butLine = document.getElementById('butLine');
+    var spinner = document.getElementById('spinnerWidth');
+    var colour = document.getElementById('colour');
 
-	// Implémentez ici les 3 fonctions onInteractionStart, onInteractionUpdate et onInteractionEnd
-function onInteractionStart() {
-    
-}   
 
-function onInteractionEnd() {
-    
+    // Implémentez ici les 3 fonctions onInteractionStart, onInteractionUpdate et onInteractionEnd
+    // Fonction onInteractionStart
+    this.onInteractionStart = function(dnd) {
+        this.currLineWidth = spinner.value;
+        this.currColour = colour.value;
+        //Choix du mode d'edition
+        if(butRect.checked) {
+            this.currEditingMode = editingMode.rect
+        } else if (butLine.checked){
+            this.currEditingMode = editingMode.line
+        }
+        //Changement de la forme et création de la forme
+        switch (this.currEditingMode){
+            case editingMode.line: {
+                this.currentShape = new Line(dnd.getInitX, dnd.getInitY, dnd.getFinalX, dnd.getFinalY, this.currLineWidth, this.currColour);
+                break
+            }
+            case editingMode.rect: {
+                this.currentShape = new Rectangle(dnd.getInitX, dnd.getInitY, dnd.height, dnd.width, this.currLineWidth, this.currColour);
+                break
+            }
+        }
+    }.bind(this);
+
+
+    // Fonction onInteractionUpdate
+    this.onInteractionUpdate = function(dnd){
+        if(butLine.checked){
+            //Line
+            this.currentShape = new Line(dnd.getInitX, dnd.getInitY, dnd.getFinalX, dnd.getFinalY, this.currLineWidth, this.currColour)
+        } else if(butRect.checked){
+            //Rectangle
+            this.currentShape = new Rectangle(dnd.getInitX, dnd.getInitY, dnd.height, dnd.width, this.currLineWidth, this.currColour)
+        }
+        drawing.paint(ctx);
+        this.currentShape.paint(ctx)
+    }.bind(this);
+
+
+    // Fonction onInteractionEnd
+    this.onInteractionEnd = function(dnd){
+        if(butLine.checked){
+            //Line
+            this.currentShape = new Line(dnd.getInitX, dnd.getInitY, dnd.getFinalX, dnd.getFinalY, this.currLineWidth, this.currColour)
+        } else if(butRect.checked){
+            //Rectangle
+            this.currentShape = new Rectangle(dnd.getInitX, dnd.getInitY, dnd.height, dnd.width, this.currLineWidth, this.currColour)
+        }
+        drawing.addForm(this.currentShape);
+        drawing.paint(ctx, canvas)
+    }.bind(this)
+
 }
-
-function onInteractionUpdate() {
-    
-}
-
-};
 
 

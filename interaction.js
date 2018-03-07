@@ -14,7 +14,7 @@ function DnD(canvas, interactor) {
         this.positInitX = getMousePosition(canvas, evt).x;
         this.positInitY = getMousePosition(canvas, evt).y;
         this.pressed = true;
-        interactor.onInteractionStart(this);
+        pencil.onInteractionStart(this);
         console.log("Début du mouvement : " + this.positInitX + " " + this.positInitY);
     }.bind(this); // bind pour lier la fonction à la classe
 
@@ -24,8 +24,8 @@ function DnD(canvas, interactor) {
             this.positFinX = getMousePosition(canvas, evt).x;
             this.positFinY = getMousePosition(canvas, evt).y;
             this.pressed = false;
-            interactor.onInteractionEnd(this);
-            console.log("La souris s'arrete : " + this.positInitX + " " + this.cpositInitY + " " + this.positFinX + " " + this.positFinY);
+            pencil.onInteractionEnd(this);
+            console.log("La souris s'arrete : " + this.positInitX + " " + this.positInitY + " " + this.positFinX + " " + this.positFinY);
         }
     }.bind(this);
 
@@ -34,7 +34,7 @@ function DnD(canvas, interactor) {
         if (this.pressed){
             this.positFinX = getMousePosition(canvas, evt).x;
             this.positFinY = getMousePosition(canvas, evt).y;
-            interactor.onInteractionUpdate(this);
+            pencil.onInteractionUpdate(this);
             console.log("La souris est en mouvement : " + this.positFinX + " " + this.positFinY);
         }
     }.bind(this);
@@ -44,9 +44,7 @@ function DnD(canvas, interactor) {
     canvas.addEventListener('mousedown', this.mousedown);
     canvas.addEventListener('mouseup', this.mouseup);
     canvas.addEventListener('mousemove', this.mousemove);
-};
-
-
+}
 // Place le point de l'événement evt relativement à la position du canvas.
 function getMousePosition(canvas, evt) {
   var rect = canvas.getBoundingClientRect();
@@ -54,7 +52,7 @@ function getMousePosition(canvas, evt) {
     x: evt.clientX - rect.left,
     y: evt.clientY - rect.top
   };
-};
+}
 
 
 
