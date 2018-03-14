@@ -3,9 +3,10 @@
 
 Rectangle.prototype.paint = function(ctx) {
     // Manager color
+    ctx.beginPath();
     ctx.lineWidth = this.epaisseur;
     ctx.strokeStyle = this.couleur;
-    ctx.rect(this.getInitX(), this.getInitY(), this.getFinalX(), this.getFinalY());
+    ctx.rect(this.positRecInX, this.positRecInY, this.largeur, this.hauteur);
     ctx.stroke();
 };
 
@@ -13,10 +14,11 @@ Line.prototype.paint = function(ctx) {
     // Manager color
 
     ctx.beginPath();
-    ctx.lineWidth = this.getEpaisseur();
-    ctx.strokeStyle = this.getCouleur();
-    ctx.moveTo(this.getInitX(), this.getInitY());
-    ctx.lineTo(this.getFinalX(), this.getFinalY());
+    ctx.lineWidth = this.epaisseur;
+    ctx.strokeStyle = this.couleur;
+    console.log("Données à verifier : epaisseur : " + this.lineWidth + " et couleur " + this.strokeStyle);
+    ctx.moveTo(this.positInX, this.positInY);
+    ctx.lineTo(this.positOutX, this.positOutY);
     ctx.stroke();
 };
 
@@ -30,3 +32,5 @@ Drawing.prototype.paint = function(ctx) {
         eltDuTableau.paint(ctx);
     });
 };
+
+

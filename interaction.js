@@ -3,10 +3,13 @@
 // L'interacteur viendra dans un second temps donc ne vous en souciez pas au départ.
 function DnD(canvas, interactor) {
 	// Définir ici les attributs de la 'classe'
+    this.canvas = canvas;
+    this.interactor = interactor;
     this.positInitX = 0; // Coordonnées de départ de la variable X
     this.positInitY = 0; // Coordonnée de départ de la variable Y
     this.positFinX = 0; // Coordonnée finale de la variable X
     this.positFinY = 0; // Coordonnée finale de la variable Y
+    this.pressed = false;
 	// Developper les 3 fonctions gérant les événements
 
     //Fonction gérant l'appui du bouton gauche de la souris
@@ -14,7 +17,7 @@ function DnD(canvas, interactor) {
         this.positInitX = getMousePosition(canvas, evt).x;
         this.positInitY = getMousePosition(canvas, evt).y;
         this.pressed = true;
-        pencil.onInteractionStart(this);
+        interactor.onInteractionStart(this);
         console.log("Début du mouvement : " + this.positInitX + " " + this.positInitY);
     }.bind(this); // bind pour lier la fonction à la classe
 
@@ -24,7 +27,7 @@ function DnD(canvas, interactor) {
             this.positFinX = getMousePosition(canvas, evt).x;
             this.positFinY = getMousePosition(canvas, evt).y;
             this.pressed = false;
-            pencil.onInteractionEnd(this);
+            interactor.onInteractionEnd(this);
             console.log("La souris s'arrete : " + this.positInitX + " " + this.positInitY + " " + this.positFinX + " " + this.positFinY);
         }
     }.bind(this);
@@ -34,16 +37,16 @@ function DnD(canvas, interactor) {
         if (this.pressed){
             this.positFinX = getMousePosition(canvas, evt).x;
             this.positFinY = getMousePosition(canvas, evt).y;
-            pencil.onInteractionUpdate(this);
+            interactor.onInteractionUpdate(this);
             console.log("La souris est en mouvement : " + this.positFinX + " " + this.positFinY);
         }
     }.bind(this);
 
 	// Associer les fonctions précédentes aux évènements du canvas.
 
-    canvas.addEventListener('mousedown', this.mousedown);
-    canvas.addEventListener('mouseup', this.mouseup);
-    canvas.addEventListener('mousemove', this.mousemove);
+    canvas.addEventListener('mousedown', this.mousedown , false);
+    canvas.addEventListener('mouseup', this.mouseup , false);
+    canvas.addEventListener('mousemove', this.mousemove , false);
 }
 // Place le point de l'événement evt relativement à la position du canvas.
 function getMousePosition(canvas, evt) {

@@ -30,14 +30,15 @@ function Pencil(ctx, drawing, canvas) {
         //Changement de la forme et création de la forme
         switch (this.currEditingMode){
             case editingMode.line: {
-                this.currentShape = new Line(dnd.getInitX, dnd.getInitY, dnd.getFinalX, dnd.getFinalY, this.currLineWidth, this.currColour);
+                this.currentShape = new Line(DnD.getInitX, DnD.getInitY, DnD.getFinalX, DnD.getFinalY, this.currLineWidth, this.currColour);
                 break
             }
             case editingMode.rect: {
-                this.currentShape = new Rectangle(dnd.getInitX, dnd.getInitY, dnd.height, dnd.width, this.currLineWidth, this.currColour);
+                this.currentShape = new Rectangle(DnD.getInitX, DnD.getInitY, DnD.height, DnD.width, this.currLineWidth, this.currColour);
                 break
             }
         }
+        console.log("Données start : epaisseur : " + this.currLineWidth + " et couleur " + this.currColour + " et mode edition " + this.currEditingMode);
     }.bind(this);
 
 
@@ -52,6 +53,7 @@ function Pencil(ctx, drawing, canvas) {
         }
         drawing.paint(ctx);
         this.currentShape.paint(ctx)
+        console.log("Données update : epaisseur : " + this.currLineWidth + " et couleur " + this.currColour + " et mode edition " + this.currEditingMode);
     }.bind(this);
 
 
@@ -66,6 +68,7 @@ function Pencil(ctx, drawing, canvas) {
         }
         drawing.addForm(this.currentShape);
         drawing.paint(ctx, canvas)
+        console.log("Données finale : epaisseur : " + this.currLineWidth + " et couleur " + this.currColour + " et mode edition " + this.currEditingMode);
     }.bind(this)
 
 }

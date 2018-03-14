@@ -10,13 +10,13 @@ function Drawing() {
         return this.mesDessin
     }.bind(this);
 
-    this.addForm = function (Forme) {
-        this.mesDessin.push(Forme)
+    this.addForm = function (forme) {
+        this.mesDessin.push(forme)
     }.bind(this)
 
 }
 // Classe Forme
-function Forme(epaisseur, couleur){
+function Forme(couleur, epaisseur){
     this.couleur = couleur;
     this.epaisseur = epaisseur;
 
@@ -24,6 +24,7 @@ function Forme(epaisseur, couleur){
     this.getCouleur = function(){
         return this.couleur;
     }.bind(this);
+
     // Fonction qui retourne l'épaisseur de la forme
     this.getEpaisseur = function(){
         return this.epaisseur;
