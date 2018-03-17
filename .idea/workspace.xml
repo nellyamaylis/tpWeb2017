@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c628d2eb-7239-4fd3-9205-c940b9a81125" name="Default" comment="">
+    <list default="true" id="c628d2eb-7239-4fd3-9205-c940b9a81125" name="Default" comment="update MVC 1">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/canvas.html" afterPath="$PROJECT_DIR$/canvas.html" />
       <change beforePath="$PROJECT_DIR$/controller.js" afterPath="$PROJECT_DIR$/controller.js" />
       <change beforePath="$PROJECT_DIR$/interaction.js" afterPath="$PROJECT_DIR$/interaction.js" />
       <change beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
@@ -15,33 +19,38 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tpWeb2017" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="interaction.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interaction.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="model.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-430">
-              <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="286">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="416">
+              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -50,8 +59,8 @@
       <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1072">
-              <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+            <state relative-caret-position="480">
+              <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -60,8 +69,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -70,8 +79,18 @@
       <file leaf-file-name="canvas.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/canvas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <state relative-caret-position="-9">
+              <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interaction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interaction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="45" column="64" lean-forward="false" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -82,6 +101,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>couleur</find>
+      <find>positInX</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,11 +115,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/canvas.html" />
         <option value="$PROJECT_DIR$/model.js" />
-        <option value="$PROJECT_DIR$/controller.js" />
+        <option value="$PROJECT_DIR$/canvas.html" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/interaction.js" />
+        <option value="$PROJECT_DIR$/controller.js" />
         <option value="$PROJECT_DIR$/view.js" />
       </list>
     </option>
@@ -110,11 +130,32 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="16" />
-    <option name="width" value="1281" />
-    <option name="height" value="732" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -131,6 +172,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,10 +187,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,6 +194,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,6 +311,9 @@
       <workItem from="1520466359303" duration="10000" />
       <workItem from="1520600994267" duration="2329000" />
       <workItem from="1520866223667" duration="9812000" />
+      <workItem from="1521058100911" duration="8518000" />
+      <workItem from="1521070450285" duration="3040000" />
+      <workItem from="1521210572383" duration="15891000" />
     </task>
     <task id="LOCAL-00001" summary="update MVC">
       <created>1520448956252</created>
@@ -285,40 +333,69 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27970000" />
+    <option name="totallyTimeSpent" value="55419000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="16" width="1303" height="780" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24596465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.49516907" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25349087" sideWeight="0.5048309" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.49516907" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25349087" sideWeight="0.5048309" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -332,10 +409,156 @@
     <option name="LAST_COMMIT_MESSAGE" value="update MVC 1" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/interaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1960">
+          <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1960">
+          <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2212">
+          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1372">
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1372">
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/interaction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -446,71 +669,781 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/jquery-2.1.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="449" column="17" lean-forward="false" selection-start-line="449" selection-start-column="17" selection-end-line="449" selection-end-column="17" />
+          <folding>
+            <element signature="e#862#891#0" expanded="false" />
+            <element signature="n#!!doc;n#eval#0" expanded="false" />
+            <element signature="n#!!doc;n#parseInt#0" expanded="false" />
+            <element signature="n#!!doc;n#parseFloat#0" expanded="false" />
+            <element signature="n#!!doc;n#isNaN#0" expanded="false" />
+            <element signature="n#!!doc;n#isFinite#0" expanded="false" />
+            <element signature="n#!!doc;n#decodeURI#0" expanded="false" />
+            <element signature="n#!!doc;n#decodeURIComponent#0" expanded="false" />
+            <element signature="n#!!doc;n#encodeURI#0" expanded="false" />
+            <element signature="n#!!doc;n#encodeURIComponent#0" expanded="false" />
+            <element signature="n#!!block;n#PropertyDescriptor#0" expanded="false" />
+            <element signature="n#!!block;n#PropertyDescriptorMap#0" expanded="false" />
+            <element signature="n#!!block;n#Object#0" expanded="false" />
+            <element signature="n#!!doc;n#constructor#0;n#!!block;n#Object#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Object#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Object#0" expanded="false" />
+            <element signature="n#!!doc;n#valueOf#0;n#!!block;n#Object#0" expanded="false" />
+            <element signature="n#!!doc;n#hasOwnProperty#0;n#!!block;n#Object#0" expanded="false" />
+            <element signature="n#!!doc;n#isPrototypeOf#0;n#!!block;n#Object#0" expanded="false" />
+            <element signature="n#!!doc;n#propertyIsEnumerable#0;n#!!block;n#Object#0" expanded="false" />
+            <element signature="n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#prototype#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#getPrototypeOf#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#getOwnPropertyDescriptor#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#getOwnPropertyNames#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#create#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#create#1;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#defineProperty#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#defineProperties#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#seal#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#freeze#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#freeze#1;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#freeze#2;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#preventExtensions#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#isSealed#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#isFrozen#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#isExtensible#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#keys#0;n#!!block;n#ObjectConstructor#0" expanded="false" />
+            <element signature="e#8870#8939#0" expanded="false" />
+            <element signature="n#!!doc;n#Function#0" expanded="false" />
+            <element signature="n#!!block;n#Function#0" expanded="false" />
+            <element signature="n#!!doc;n#apply#0;n#!!block;n#Function#0" expanded="false" />
+            <element signature="n#!!doc;n#call#0;n#!!block;n#Function#0" expanded="false" />
+            <element signature="n#!!doc;n#bind#0;n#!!block;n#Function#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Function#0" expanded="false" />
+            <element signature="n#!!block;n#FunctionConstructor#0" expanded="false" />
+            <element signature="e#10460#10566#0" expanded="false" />
+            <element signature="n#!!block;n#IArguments#0" expanded="false" />
+            <element signature="n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#charAt#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#charCodeAt#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#concat#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#localeCompare#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#match#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#replace#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#replace#1;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#search#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#split#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#substring#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#toLowerCase#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleLowerCase#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#toUpperCase#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleUpperCase#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#trim#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#substr#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!doc;n#valueOf#0;n#!!block;n#String#0" expanded="false" />
+            <element signature="n#!!block;n#StringConstructor#0" expanded="false" />
+            <element signature="e#16505#16629#0" expanded="false" />
+            <element signature="n#!!block;n#Boolean#0" expanded="false" />
+            <element signature="n#!!doc;n#valueOf#0;n#!!block;n#Boolean#0" expanded="false" />
+            <element signature="n#!!block;n#BooleanConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#Number#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Number#0" expanded="false" />
+            <element signature="n#!!doc;n#toFixed#0;n#!!block;n#Number#0" expanded="false" />
+            <element signature="n#!!doc;n#toExponential#0;n#!!block;n#Number#0" expanded="false" />
+            <element signature="n#!!doc;n#toPrecision#0;n#!!block;n#Number#0" expanded="false" />
+            <element signature="n#!!doc;n#valueOf#0;n#!!block;n#Number#0" expanded="false" />
+            <element signature="n#!!block;n#NumberConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#MAX_VALUE#0;n#!!block;n#NumberConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#MIN_VALUE#0;n#!!block;n#NumberConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#NaN#0;n#!!block;n#NumberConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#NEGATIVE_INFINITY#0;n#!!block;n#NumberConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#POSITIVE_INFINITY#0;n#!!block;n#NumberConstructor#0" expanded="false" />
+            <element signature="e#19170#19282#0" expanded="false" />
+            <element signature="n#!!block;n#TemplateStringsArray#0" expanded="false" />
+            <element signature="n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#E#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#LN10#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#LN2#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#LOG2E#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#LOG10E#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#PI#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#SQRT1_2#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#SQRT2#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#abs#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#acos#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#asin#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#atan#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#atan2#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#ceil#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#cos#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#exp#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#floor#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#log#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#max#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#min#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#pow#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#random#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#round#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#sin#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#sqrt#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="n#!!doc;n#tan#0;n#!!block;n#Math#0" expanded="false" />
+            <element signature="e#23332#23419#0" expanded="false" />
+            <element signature="n#!!doc;n#Date#0" expanded="false" />
+            <element signature="n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#toDateString#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#toTimeString#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleDateString#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleTimeString#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#valueOf#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getTime#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getFullYear#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getUTCFullYear#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getMonth#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getUTCMonth#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getDate#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getUTCDate#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getDay#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getUTCDay#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getHours#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getUTCHours#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getMinutes#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getUTCMinutes#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getSeconds#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getUTCSeconds#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getMilliseconds#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getUTCMilliseconds#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#getTimezoneOffset#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setTime#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setMilliseconds#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setUTCMilliseconds#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setSeconds#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setUTCSeconds#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setMinutes#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setUTCMinutes#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setHours#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setUTCHours#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setDate#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setUTCDate#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setMonth#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setUTCMonth#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setFullYear#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#setUTCFullYear#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#toUTCString#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#toISOString#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!doc;n#toJSON#0;n#!!block;n#Date#0" expanded="false" />
+            <element signature="n#!!block;n#DateConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#parse#0;n#!!block;n#DateConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#UTC#0;n#!!block;n#DateConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#RegExpMatchArray#0" expanded="false" />
+            <element signature="n#!!block;n#RegExpExecArray#0" expanded="false" />
+            <element signature="n#!!block;n#RegExp#0" expanded="false" />
+            <element signature="n#!!doc;n#exec#0;n#!!block;n#RegExp#0" expanded="false" />
+            <element signature="n#!!doc;n#test#0;n#!!block;n#RegExp#0" expanded="false" />
+            <element signature="n#!!doc;n#source#0;n#!!block;n#RegExp#0" expanded="false" />
+            <element signature="n#!!doc;n#global#0;n#!!block;n#RegExp#0" expanded="false" />
+            <element signature="n#!!doc;n#ignoreCase#0;n#!!block;n#RegExp#0" expanded="false" />
+            <element signature="n#!!doc;n#multiline#0;n#!!block;n#RegExp#0" expanded="false" />
+            <element signature="n#!!block;n#RegExpConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#Error#0" expanded="false" />
+            <element signature="n#!!block;n#ErrorConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#EvalError#0" expanded="false" />
+            <element signature="n#!!block;n#EvalErrorConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#RangeError#0" expanded="false" />
+            <element signature="n#!!block;n#RangeErrorConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#ReferenceError#0" expanded="false" />
+            <element signature="n#!!block;n#ReferenceErrorConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#SyntaxError#0" expanded="false" />
+            <element signature="n#!!block;n#SyntaxErrorConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#TypeError#0" expanded="false" />
+            <element signature="n#!!block;n#TypeErrorConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#URIError#0" expanded="false" />
+            <element signature="n#!!block;n#URIErrorConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#JSON#0" expanded="false" />
+            <element signature="n#!!doc;n#parse#0;n#!!block;n#JSON#0" expanded="false" />
+            <element signature="n#!!doc;n#stringify#0;n#!!block;n#JSON#0" expanded="false" />
+            <element signature="n#!!doc;n#stringify#1;n#!!block;n#JSON#0" expanded="false" />
+            <element signature="e#38154#38297#0" expanded="false" />
+            <element signature="e#38326#38355#0" expanded="false" />
+            <element signature="n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#concat#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#concat#1;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#join#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#every#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#some#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#forEach#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#map#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#1;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#2;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#0;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#2;n#!!block;n#ReadonlyArray#0" expanded="false" />
+            <element signature="n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#push#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#pop#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#concat#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#concat#1;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#join#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reverse#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#shift#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#splice#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#splice#1;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#unshift#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#every#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#some#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#forEach#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#map#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#1;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#2;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#0;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#2;n#!!block;n#Array#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#TypedPropertyDescriptor#0" expanded="false" />
+            <element signature="n#!!block;n#PromiseLike#0" expanded="false" />
+            <element signature="n#!!doc;n#then#0;n#!!block;n#PromiseLike#0" expanded="false" />
+            <element signature="n#!!doc;n#Promise#0" expanded="false" />
+            <element signature="n#!!block;n#Promise#0" expanded="false" />
+            <element signature="n#!!doc;n#then#0;n#!!block;n#Promise#0" expanded="false" />
+            <element signature="n#!!doc;n#catch#0;n#!!block;n#Promise#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayLike#0" expanded="false" />
+            <element signature="e#60359#60403#0" expanded="false" />
+            <element signature="e#60455#60499#0" expanded="false" />
+            <element signature="e#60560#60604#0" expanded="false" />
+            <element signature="e#60665#60729#0" expanded="false" />
+            <element signature="n#!!doc;n#ThisType#0" expanded="false" />
+            <element signature="n#!!doc;n#ArrayBuffer#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayBuffer#0" expanded="false" />
+            <element signature="n#!!doc;n#byteLength#0;n#!!block;n#ArrayBuffer#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#ArrayBuffer#0" expanded="false" />
+            <element signature="n#!!doc;n#ArrayBufferTypes#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayBufferTypes#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayBufferConstructor#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayBufferView#0" expanded="false" />
+            <element signature="n#!!doc;n#buffer#0;n#!!block;n#ArrayBufferView#0" expanded="false" />
+            <element signature="n#!!doc;n#byteLength#0;n#!!block;n#ArrayBufferView#0" expanded="false" />
+            <element signature="n#!!doc;n#byteOffset#0;n#!!block;n#ArrayBufferView#0" expanded="false" />
+            <element signature="n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#getFloat32#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#getFloat64#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#getInt8#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#getInt16#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#getInt32#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#getUint8#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#getUint16#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#getUint32#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#setFloat32#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#setFloat64#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#setInt8#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#setInt16#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#setInt32#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#setUint8#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#setUint16#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!doc;n#setUint32#0;n#!!block;n#DataView#0" expanded="false" />
+            <element signature="n#!!block;n#DataViewConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#buffer#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteLength#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteOffset#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#copyWithin#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#every#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#fill#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#find#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#findIndex#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#forEach#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#join#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#map#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#2;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#2;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reverse#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#set#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#some#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#subarray#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Int8Array#0" expanded="false" />
+            <element signature="n#!!block;n#Int8ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Int8ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#of#0;n#!!block;n#Int8ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#from#0;n#!!block;n#Int8ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#buffer#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteLength#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteOffset#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#copyWithin#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#every#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#fill#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#find#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#findIndex#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#forEach#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#join#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#map#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#2;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#2;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reverse#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#set#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#some#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#subarray#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Uint8Array#0" expanded="false" />
+            <element signature="n#!!block;n#Uint8ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Uint8ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#of#0;n#!!block;n#Uint8ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#from#0;n#!!block;n#Uint8ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#buffer#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#byteLength#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#byteOffset#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#copyWithin#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#every#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#fill#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#find#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#findIndex#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#forEach#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#join#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#map#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#2;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#2;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#reverse#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#set#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#some#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#subarray#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Uint8ClampedArray#0" expanded="false" />
+            <element signature="n#!!block;n#Uint8ClampedArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Uint8ClampedArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#of#0;n#!!block;n#Uint8ClampedArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#from#0;n#!!block;n#Uint8ClampedArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#buffer#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteLength#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteOffset#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#copyWithin#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#every#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#fill#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#find#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#findIndex#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#forEach#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#join#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#map#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#2;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#2;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reverse#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#set#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#some#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#subarray#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Int16Array#0" expanded="false" />
+            <element signature="n#!!block;n#Int16ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Int16ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#of#0;n#!!block;n#Int16ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#from#0;n#!!block;n#Int16ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#buffer#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteLength#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteOffset#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#copyWithin#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#every#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#fill#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#find#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#findIndex#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#forEach#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#join#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#map#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#2;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#2;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reverse#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#set#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#some#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#subarray#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Uint16Array#0" expanded="false" />
+            <element signature="n#!!block;n#Uint16ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Uint16ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#of#0;n#!!block;n#Uint16ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#from#0;n#!!block;n#Uint16ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#buffer#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteLength#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteOffset#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#copyWithin#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#every#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#fill#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#find#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#findIndex#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#forEach#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#join#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#map#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#2;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#2;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reverse#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#set#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#some#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#subarray#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Int32Array#0" expanded="false" />
+            <element signature="n#!!block;n#Int32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Int32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#of#0;n#!!block;n#Int32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#from#0;n#!!block;n#Int32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#buffer#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteLength#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteOffset#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#copyWithin#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#every#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#fill#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#find#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#findIndex#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#forEach#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#join#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#map#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#2;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#2;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reverse#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#set#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#some#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#subarray#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Uint32Array#0" expanded="false" />
+            <element signature="n#!!block;n#Uint32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Uint32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#of#0;n#!!block;n#Uint32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#from#0;n#!!block;n#Uint32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#buffer#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteLength#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteOffset#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#copyWithin#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#every#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#fill#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#find#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#findIndex#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#forEach#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#join#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#map#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#2;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#2;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reverse#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#set#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#some#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#subarray#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Float32Array#0" expanded="false" />
+            <element signature="n#!!block;n#Float32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Float32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#of#0;n#!!block;n#Float32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#from#0;n#!!block;n#Float32ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#buffer#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteLength#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#byteOffset#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#copyWithin#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#every#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#fill#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#filter#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#find#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#findIndex#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#forEach#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#indexOf#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#join#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#lastIndexOf#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#length#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#map#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduce#2;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reduceRight#2;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#reverse#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#set#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#slice#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#some#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#sort#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#subarray#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!doc;n#toString#0;n#!!block;n#Float64Array#0" expanded="false" />
+            <element signature="n#!!block;n#Float64ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#BYTES_PER_ELEMENT#0;n#!!block;n#Float64ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#of#0;n#!!block;n#Float64ArrayConstructor#0" expanded="false" />
+            <element signature="n#!!doc;n#from#0;n#!!block;n#Float64ArrayConstructor#0" expanded="false" />
+            <element signature="e#187183#187212#0" expanded="false" />
+            <element signature="n#Intl#0" expanded="false" />
+            <element signature="n#!!block;n#CollatorOptions#0;n#Intl#0" expanded="false" />
+            <element signature="n#!!block;n#ResolvedCollatorOptions#0;n#Intl#0" expanded="false" />
+            <element signature="n#!!block;n#Collator#0;n#Intl#0" expanded="false" />
+            <element signature="e#187913#188168#0" expanded="false" />
+            <element signature="n#!!block;n#NumberFormatOptions#0;n#Intl#0" expanded="false" />
+            <element signature="n#!!block;n#ResolvedNumberFormatOptions#0;n#Intl#0" expanded="false" />
+            <element signature="n#!!block;n#NumberFormat#0;n#Intl#0" expanded="false" />
+            <element signature="e#189143#189418#0" expanded="false" />
+            <element signature="n#!!block;n#DateTimeFormatOptions#0;n#Intl#0" expanded="false" />
+            <element signature="n#!!block;n#ResolvedDateTimeFormatOptions#0;n#Intl#0" expanded="false" />
+            <element signature="n#!!block;n#DateTimeFormat#0;n#Intl#0" expanded="false" />
+            <element signature="e#190378#190663#0" expanded="false" />
+            <element signature="n#!!block;n#String#1" expanded="false" />
+            <element signature="n#!!doc;n#localeCompare#0;n#!!block;n#String#1" expanded="false" />
+            <element signature="n#!!block;n#Number#1" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Number#1" expanded="false" />
+            <element signature="n#!!block;n#Date#1" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleString#0;n#!!block;n#Date#1" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleDateString#0;n#!!block;n#Date#1" expanded="false" />
+            <element signature="n#!!doc;n#toLocaleTimeString#0;n#!!block;n#Date#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESIGN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="18">
-            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-2.1.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="28">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interaction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1072">
-          <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        <state relative-caret-position="-9">
+          <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="182">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view.js">
+    <entry file="file://$PROJECT_DIR$/interaction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="387">
+          <caret line="45" column="64" lean-forward="false" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="286">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tpWeb2017</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
